@@ -9,6 +9,7 @@
 .intro {
     max-width: 540px;
     text-align: center;
+    z-index: 1;
 }
 
 .home__img {
@@ -93,7 +94,6 @@
     top: 0;
     height: 100%;
     width: 100%;
-    z-index: -1;
 }
 
 .shape { 
@@ -153,4 +153,145 @@
 .s11 {
     bottom: 10%;
     right: 2%;
+}
+
+.code__btn {
+    box-sizing: border-box;
+    padding: 15px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+    font-family: var(--font-family);
+    background: var(--first-color);
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border-radius: 1.875rem;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    line-height: 1;
+}
+
+.code__btn span {
+    letter-spacing: .1rem;
+    transition: .3s;
+    box-sizing: border-box;
+    position: relative;
+    background: inherit;
+}
+
+.code__btn span::before {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    background: inherit;
+}
+
+.code__btn:hover, .code__btn:focus {
+    background: var(--first-color);
+}
+
+.code__btn:hover span::before, .code__btn:focus span::before {
+    animation: chitchat linear both 1.2s;
+}
+
+@keyframes chitchat {
+    0% {
+    content: "#";
+    }
+
+    5% {
+    content: ".";
+    }
+
+    10% {
+    content: "^{";
+    }
+
+    15% {
+    content: "-!";
+    }
+
+    20% {
+    content: "#$_";
+    }
+
+    25% {
+    content: "№:0";
+    }
+
+    30% {
+    content: "#{+.";
+    }
+
+    35% {
+    content: "@}-?";
+    }
+
+    40% {
+    content: "?{4@%";
+    }
+
+    45% {
+    content: "=.,^!";
+    }
+
+    50% {
+    content: "?2@%";
+    }
+
+    55% {
+    content: "\;1}]";
+    }
+
+    60% {
+    content: "?{%:%";
+    right: 0;
+    }
+
+    65% {
+    content: "|{f[4";
+    right: 0;
+    }
+
+    70% {
+    content: "{4%0%";
+    right: 0;
+    }
+
+    75% {
+    content: "'1_0<";
+    right: 0;
+    }
+
+    80% {
+    content: "{0%";
+    right: 0;
+    }
+
+    85% {
+    content: "]>'";
+    right: 0;
+    }
+
+    90% {
+    content: "4";
+    right: 0;
+    }
+
+    95% {
+    content: "2";
+    right: 0;
+    }
+
+    100% {
+    content: "";
+    right: 0;
+    }
 }
