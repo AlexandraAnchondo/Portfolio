@@ -12,7 +12,7 @@ const Data = [
         category: "education",
         icon: "icon-graduation",
         year: "2016 - 2019",
-        title: "Senior High School",
+        title: "High School",
         desc: "Colegio de Bachilleres del Estado de Baja California",
     },
     {
