@@ -8,6 +8,7 @@
   --first-color: hsl(353, 100%, 65%);
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
+  --text-color-2: hsl(244, 16%, 43%);
   --body-color: hsl(30, 80%, 96%);
   --hover-color: hsl(253, 86%, 61%);
   --service-color1: hsl(253, 66%, 67%);
@@ -18,7 +19,8 @@
   /* Colors for Dark Mode */
   /* --first-color: hsl(353, 100%, 65%);
   --title-color: hsl(246, 56%, 69%);
-  --text-color: hsl(244, 68%, 85%);
+  --text-color: hsl(244, 76%, 92%);
+  --text-color-2: hsl(244, 16%, 43%);
   --body-color: hsl(261, 64%, 9%);
   --hover-color: hsl(253, 79%, 81%);
   --service-color1: hsl(253, 66%, 67%);

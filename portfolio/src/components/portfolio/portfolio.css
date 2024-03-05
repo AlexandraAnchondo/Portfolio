@@ -59,7 +59,7 @@
 }
 
 .work__title {
-    color: #fff;
+    color: var(--container-color);
     font-size: var(--h3-font-size);
     margin: 0 0 0.98rem;
     padding: 0 1.25rem;
