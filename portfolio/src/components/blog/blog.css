@@ -33,3 +33,23 @@
     margin-bottom: 0.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .blog__container {
+        grid-template-columns: repeat(2, 330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog__container {
+        grid-template-columns: repeat(2, 150px);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .blog__container {
+        grid-template-columns: 1fr;
+    }
+}
+
