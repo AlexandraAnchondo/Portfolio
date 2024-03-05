@@ -51,7 +51,7 @@
 }
 
 .services__card:nth-child(2) .services_description {
-    color: var(--text-color);
+    color: var(--text-color-2);
 }
 
 .services__stack {
