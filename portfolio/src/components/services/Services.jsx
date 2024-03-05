@@ -9,25 +9,27 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "UI/UX design",
+        title: "UI/UX Design",
         description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "Crafting visually appealing and user-friendly interfaces for your web applications, ensuring an optimal user experience.",
     },
     {
         id: 2,
         image: Image2,
         title: "Web Development",
         description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "Building and maintaining high-quality web applications using Node.js, React, and MySQL, tailored to meet your specific requirements.",
     },
     {
         id: 3,
         image: Image3,
-        title: "Database management",
+        title: "Database Management",
         description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "Efficiently organizing and managing your data with MySQL databases, ensuring data integrity and optimal performance for your applications.",
     },
 ];
+
+
 
 const Services = () => {
     return <section className="services container section" id="services">
