@@ -34,7 +34,7 @@ const Blog = () => {
                         <img src={Image3} alt="" className="blog__img"/>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">Gym exercise</h3>
+                        <h3 className="blog__title">Go to the gym</h3>
                     </div>
                 </div>
 
