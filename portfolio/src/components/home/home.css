@@ -1,0 +1,303 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+    z-index: 1;
+}
+
+.home__img {
+    margin-bottom: 1.5rem;
+}
+
+.home__name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.home__socials {
+    display: flex;
+    column-gap: 1.75rem;
+    margin: 1.5rem 0;
+    justify-content: center;
+}
+
+.home__social-link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.home__social-link:hover {
+    color: hsl(32, 80%, 54%);
+}
+
+.scroll__down {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+}
+
+.home__scroll-name {
+    font-size: var(--small-font-size);
+}
+
+.mouse {
+    border: 2px solid var(--text-color);
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+@keyframes ani-mouse {
+    0% {
+        top: 29%
+    }
+    15% {
+        top: 50%;
+    }
+    50% {
+        top: 50%;
+    }
+    100% {
+        top: 29%;
+    }
+}
+
+.wheel {
+    background-color: var(--text-color);
+    border-radius: 100%;
+    width: 0.2rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ani-mouse 2s linear infinite;
+}
+
+.shapes {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.shape { 
+    position: absolute;
+}
+
+.s1 {
+    left: 2%;
+    top: 10%;
+}
+
+.s2 {
+    left: 18%;
+    top: 30%;
+}
+
+.s3 {
+    left: 5%;
+    bottom: 30%;
+}
+
+.s4 {
+    left: 2%;
+    bottom: 10%;
+}
+
+.s5 {
+    left: 44%;
+    top: 10%;
+}
+
+.s6 {
+    left: 36%;
+    bottom: 10%;
+}
+
+.s7 {
+    top: 20%;
+    right: 25%;
+}
+
+.s8 {
+    right: 24%;
+    bottom: 20%;
+}
+
+.s9 {
+    right: 2%;
+    top: 10%;
+}
+
+.s10 {
+    top: 45%;
+    right: 11%;
+}
+
+.s11 {
+    bottom: 10%;
+    right: 2%;
+}
+
+.code__btn {
+    box-sizing: border-box;
+    padding: 15px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+    font-family: var(--font-family);
+    background: var(--first-color);
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border-radius: 1.875rem;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    line-height: 1;
+}
+
+.code__btn span {
+    letter-spacing: .1rem;
+    transition: .3s;
+    box-sizing: border-box;
+    position: relative;
+    background: inherit;
+}
+
+.code__btn span::before {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    background: inherit;
+}
+
+.code__btn:hover, .code__btn:focus {
+    background: var(--first-color);
+}
+
+.code__btn:hover span::before, .code__btn:focus span::before {
+    animation: chitchat linear both 1.2s;
+}
+
+@keyframes chitchat {
+    0% {
+    content: "#";
+    }
+
+    5% {
+    content: ".";
+    }
+
+    10% {
+    content: "^{";
+    }
+
+    15% {
+    content: "-!";
+    }
+
+    20% {
+    content: "#$_";
+    }
+
+    25% {
+    content: "№:0";
+    }
+
+    30% {
+    content: "#{+.";
+    }
+
+    35% {
+    content: "@}-?";
+    }
+
+    40% {
+    content: "?{4@%";
+    }
+
+    45% {
+    content: "=.,^!";
+    }
+
+    50% {
+    content: "?2@%";
+    }
+
+    55% {
+    content: "\;1}]";
+    }
+
+    60% {
+    content: "?{%:%";
+    right: 0;
+    }
+
+    65% {
+    content: "|{f[4";
+    right: 0;
+    }
+
+    70% {
+    content: "{4%0%";
+    right: 0;
+    }
+
+    75% {
+    content: "'1_0<";
+    right: 0;
+    }
+
+    80% {
+    content: "{0%";
+    right: 0;
+    }
+
+    85% {
+    content: "]>'";
+    right: 0;
+    }
+
+    90% {
+    content: "4";
+    right: 0;
+    }
+
+    95% {
+    content: "2";
+    right: 0;
+    }
+
+    100% {
+    content: "";
+    right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
+}
