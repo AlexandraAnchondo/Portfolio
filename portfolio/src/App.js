@@ -8,10 +8,12 @@ import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Blog from './components/blog/Blog';
+import Darkmode from './components/darkmode/Darkmode';
 
 const App = () => {
   return (
     <>
+    <Darkmode />
     <Sidebar />
     <main className='main'>
       <Home />
