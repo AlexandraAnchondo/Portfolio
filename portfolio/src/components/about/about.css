@@ -42,6 +42,7 @@
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    margin-top: 10px;
 }
 
 .skills__number {
@@ -63,18 +64,18 @@
 }
 
 .development {
-    width: 90%;
     background-color: #ff4c60;
+    margin-top: 10px;
 }
 
 .ui__design {
-    width: 80%;
     background-color: #ffa218;
+    margin-top: 10px;
 }
 
 .database {
-    width: 60%;
     background-color: #4c4fff;
+    margin-top: 10px;
 }
 
 .about__img {
@@ -187,6 +188,7 @@
 
     .about__img {
         justify-self: center;
+        width: 40%;
     }
 
     .about__box {

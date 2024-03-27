@@ -18,13 +18,6 @@
     filter: drop-shadow(0 0 25px var(--img-shadow)) drop-shadow(0 0 25px var(--img-shadow));
 }
 
-.home__img__inverted {
-    margin-bottom: 1.5rem;
-    width: 40%;
-    filter: drop-shadow(0 0 35px rgb(204, 59, 83)) drop-shadow(0 0 35px rgb(216, 109, 109));
-
-}
-
 .home__name {
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
