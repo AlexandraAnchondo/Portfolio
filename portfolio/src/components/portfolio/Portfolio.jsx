@@ -16,17 +16,17 @@ const Portfolio = () => {
         <section className="work container section" id="portfolio">
             <h2 className="section__title">Recent Works</h2>
 
-            <div className="work__filters">
+            {/* <div className="work__filters">
                 <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
                 <span className="work__item" onClick={() => filterItem("Creative")}>Creative</span>
                 <span className="work__item" onClick={() => filterItem("Art")}>Art</span>
                 <span className="work__item" onClick={() => filterItem("Design")}>Design</span>
                 <span className="work__item" onClick={() => filterItem("Branding")}>Branding</span>
-            </div>
+            </div> */}
 
             <div className="work__container grid">
                 {items.map((item) => {
-                    const {id, image, title, category} = item;
+                    const {id, image, title, category, url} = item;
                     return (
                         <div className="work__card" key={id}>
                             <div className="work__thumbnail">
@@ -36,7 +36,7 @@ const Portfolio = () => {
 
                             <span className="work__category">{category}</span>
                             <h3 className="work__title">{title}</h3>
-                            <a href="#" className="work__button">
+                            <a href={url} className="work__button">
                                 <i className="icon-link work__button-icon"></i>
                             </a>
                         </div>
