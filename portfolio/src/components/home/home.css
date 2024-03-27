@@ -13,7 +13,16 @@
 }
 
 .home__img {
+    margin-bottom: 2.5rem;
+    width: 40%;
+    filter: drop-shadow(0 0 25px var(--img-shadow)) drop-shadow(0 0 25px var(--img-shadow));
+}
+
+.home__img__inverted {
     margin-bottom: 1.5rem;
+    width: 40%;
+    filter: drop-shadow(0 0 35px rgb(204, 59, 83)) drop-shadow(0 0 35px rgb(216, 109, 109));
+
 }
 
 .home__name {
@@ -48,6 +57,7 @@
 
 .home__scroll-name {
     font-size: var(--small-font-size);
+    color: var(--title-color);
 }
 
 .mouse {
