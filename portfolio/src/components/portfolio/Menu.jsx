@@ -1,5 +1,5 @@
 import Work1 from "../../assets/portfolio.png";
-import Work2 from "../../assets/work-2.svg";
+import Work2 from "../../assets/Invitacion.png";
 import Work3 from "../../assets/work-3.svg";
 import Work4 from "../../assets/work-4.svg";
 import Work5 from "../../assets/work-5.svg";
@@ -13,13 +13,13 @@ const Menu = [
         category: "Design",
         url: 'https://alexandra-portfolio-cf21c.web.app/#home'
     },
-    // {
-    //     id: 2,
-    //     image: Work2,
-    //     title: "Guest App Walkthrough Screens",
-    //     category: "Art",
-    //     url: 'https://alexandra-portfolio-cf21c.web.app/#home'
-    // },
+    {
+        id: 2,
+        image: Work2,
+        title: "Wedding Invitation",
+        category: "Art",
+        url: 'https://alexandra-hael-invitacion.web.app/'
+    },
     // {
     //     id: 3,
     //     image: Work3,
