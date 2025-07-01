@@ -111,7 +111,7 @@
 
 @media screen and (max-width: 768px) {
     .work__container {
-        grid-template-columns: repeat(2, 160px);
+        grid-template-columns: 1fr;
     }
 
     .work__filters {

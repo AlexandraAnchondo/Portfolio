@@ -17,6 +17,7 @@
   --container-color: #fff; 
   --img-shadow: #fff;
   --img-shadow-2: hsl(0, 0%, 100%);
+  --border-color: #e8dfec;
 
   /*-----------------Font and typography-----------------*/
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px, 2rem = 32px */
@@ -195,6 +196,7 @@ img {
   --container-color: #434281;
   --img-shadow: hsl(353, 100%, 65%);
   --img-shadow-2: hsl(246, 68%, 70%);
+  --border-color: #957ed9;
   transition: .3s;
 }
 
