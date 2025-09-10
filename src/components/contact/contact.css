@@ -38,7 +38,7 @@
     height: 100%;
     box-shadow: var(--shadow);
     background-color: var(--container-color);
-    color: var(--text-color);
+    color: var(--text-color) !important;
     border: none;
     outline: none;
     border-radius: 1.875rem;

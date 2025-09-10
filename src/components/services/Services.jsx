@@ -48,7 +48,7 @@ const Services = () => {
             })}
         </div>
 
-        <h3 className="section__subtitle">Tools and frameworks</h3>
+        <h3 className="section__subtitle">Technologies</h3>
         <ServicesStack />
     </section>
 }
