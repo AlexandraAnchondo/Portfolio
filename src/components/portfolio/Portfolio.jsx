@@ -33,7 +33,6 @@ const Portfolio = () => {
                 <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
                 <span className="work__item" onClick={() => filterItem("Fullstack")}>Fullstack</span>
                 <span className="work__item" onClick={() => filterItem("Frontend")}>Frontend</span>
-                <span className="work__item" onClick={() => filterItem("Backend")}>Backend</span>
             </div>
 
             <div className="work__container grid">
