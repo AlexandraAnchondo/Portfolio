@@ -49,7 +49,7 @@ const Menu = [
     {
         id: 5,
         image: Work5,
-        title: "Clinica Management System",
+        title: "Clinical Management",
         category: "Fullstack",
         url: Clinica,
         description: 'Clinic products, including inventory management, sales tracking and reporting. It also includes an hotel module for managing room reservations and hotel reports.',
